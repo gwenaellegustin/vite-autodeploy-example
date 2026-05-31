@@ -28,9 +28,26 @@
 - First time (installation): `npm i`
 - Run website: `npm run dev`
 
+At each save, the local website is updated.
+
 # Edit
 
 - **readme.md**: replace information with your project info
 - **Code**: the content (body) of index.html is edited by JS in main.js
 - **Assets**: public folder is for directly accessible files (favicon). Other assets can be put in src/assets.
 - **Libraries**: to add an another library, run command `npm install --save ...`. (Example with three.js `npm install --save three`)
+
+# Update your website
+
+Each time you push your webiste, it will be updated. To push you can follow next commands or use GitHub Desktop.
+
+```
+ git add .
+```
+
+In the next command you can edit the message between "..."
+
+```
+git commit -m "Update website"
+git push -u origin main
+```
